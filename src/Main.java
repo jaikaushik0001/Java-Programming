@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 //        ASCII_Codes.ASCII();
-        Factorial.factorial();
+//        Factorial.factorial();
+        Palindrome.palindrome();
     }
 }
