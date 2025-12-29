@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 //        ASCII_Codes.ASCII();
 //        Factorial.factorial();
-        Palindrome.palindrome();
+//        Palindrome.palindrome();
+        Prime.prime();
     }
 }
