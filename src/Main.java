@@ -5,6 +5,7 @@ public class Main {
 //        ASCII_Codes.ASCII();
 //        Factorial.factorial();
 //        Palindrome.palindrome();
-        Prime.prime();
+//        Prime.prime();
+        Fibonacci_Series.fibonacci_series();
     }
 }
