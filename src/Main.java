@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ASCII_Codes as = new ASCII_Codes();
-        as.ASCII();
+//        ASCII_Codes.ASCII();
+        Factorial.factorial();
     }
 }
