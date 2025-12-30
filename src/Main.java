@@ -11,6 +11,7 @@ public class Main {
 //        reverse_a_number.reverseUsingWhile();
 //        PerfectSquare.square();
 //        Inheritance.InheritanceUsage();
-        ReverseArray.reverse();
+//        ReverseArray.reverse();
+        MergeArrays.mergeArrays();
     }
 }
