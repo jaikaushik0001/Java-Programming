@@ -12,6 +12,7 @@ public class Main {
 //        PerfectSquare.square();
 //        Inheritance.InheritanceUsage();
 //        ReverseArray.reverse();
-        MergeArrays.mergeArrays();
+//        MergeArrays.mergeArrays();
+        MostSignificantInArray.mostSignificant();
     }
 }
