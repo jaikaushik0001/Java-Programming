@@ -10,6 +10,7 @@ public class Main {
 ////        Armstrong_number.armstrong();
 //        reverse_a_number.reverseUsingWhile();
 //        PerfectSquare.square();
-        Inheritance.InheritanceUsage();
+//        Inheritance.InheritanceUsage();
+        ReverseArray.reverse();
     }
 }
