@@ -36,12 +36,20 @@ public class MostSignificantInArray {
         }
         int maxValue = 0;
         int maxElement = 0;
+        int secMaxValue = 0;
+        int secMaxElement = 0;
         for (Map.Entry<Integer,Integer> entry: m.entrySet()){
             if (entry.getValue() > maxValue){
+                secMaxValue = maxValue;
+                secMaxElement = maxElement;
                 maxValue = entry.getValue();
                 maxElement = entry.getKey();
             }
+            else if (secMaxValue < entry.getValue() && maxValue != entry.getValue()){
+                secMaxValue = entry.getValue();
+                secMaxElement = entry.getKey();
+            }
         }
-        System.out.println(maxElement+" : "+maxValue);
+        System.out.println(secMaxElement+" : "+secMaxValue);
     }
 }

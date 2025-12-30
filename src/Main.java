@@ -14,6 +14,7 @@ public class Main {
 //        ReverseArray.reverse();
 //        MergeArrays.mergeArrays();
 //        MostSignificantInArray.mostSignificant();
-        secondLargestInArray.secondLargest();
+//        secondLargestInArray.secondLargest();
+        MostSignificantInArray.secondMostSignificant();
     }
 }
