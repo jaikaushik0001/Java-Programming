@@ -8,6 +8,6 @@ public class Main {
 //        Prime.prime();
 ////        Fibonacci_Series.fibonacci_series();
 //        Armstrong_number.armstrong();
-        reverse_a_number.reverse_a_number();
+        reverse_a_number.reverseUsingWhile();
     }
 }
