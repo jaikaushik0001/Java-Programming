@@ -13,6 +13,7 @@ public class Main {
 //        Inheritance.InheritanceUsage();
 //        ReverseArray.reverse();
 //        MergeArrays.mergeArrays();
-        MostSignificantInArray.mostSignificant();
+//        MostSignificantInArray.mostSignificant();
+        secondLargestInArray.secondLargest();
     }
 }
