@@ -9,6 +9,7 @@ public class Main {
 ////        Fibonacci_Series.fibonacci_series();
 ////        Armstrong_number.armstrong();
 //        reverse_a_number.reverseUsingWhile();
-        PerfectSquare.square();
+//        PerfectSquare.square();
+        Inheritance.InheritanceUsage();
     }
 }
