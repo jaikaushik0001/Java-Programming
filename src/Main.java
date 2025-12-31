@@ -22,6 +22,8 @@ public class Main {
 //        KthSmallest_inArray.priorityQ();
 //        removeDuplicates.opimizedRemoveDuplicates();
 //        FrequencyOfString.FrequencyOf_String();
-        ShuffleTheArray.shuffleArray();
+//        ShuffleTheArray.shuffleArray();
+//        CountVowels.countVowels();
+        StringDivisionInEqualParts.stringDivision();
     }
 }
