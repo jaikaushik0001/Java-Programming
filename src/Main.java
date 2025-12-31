@@ -21,6 +21,7 @@ public class Main {
 //        KthSmallest_inArray.KthSmallest();
 //        KthSmallest_inArray.priorityQ();
 //        removeDuplicates.opimizedRemoveDuplicates();
-          FrequencyOfString.FrequencyOf_String();
+//        FrequencyOfString.FrequencyOf_String();
+        ShuffleTheArray.shuffleArray();
     }
 }
