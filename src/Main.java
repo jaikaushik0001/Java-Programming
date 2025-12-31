@@ -19,7 +19,8 @@ public class Main {
 //        maximum_in_Matrix.maximum();
 //        mostSignificantin_Matrix.secondMostSignificant();
 //        KthSmallest_inArray.KthSmallest();
-//          KthSmallest_inArray.priorityQ();
-        removeDuplicates.opimizedRemoveDuplicates();
+//        KthSmallest_inArray.priorityQ();
+//        removeDuplicates.opimizedRemoveDuplicates();
+          FrequencyOfString.FrequencyOf_String();
     }
 }
