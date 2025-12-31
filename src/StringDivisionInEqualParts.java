@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Java Program to divide a string in 'N' equal parts.
+
 public class StringDivisionInEqualParts {
     static void stringDivision(){
         Scanner sc = new Scanner(System.in);
