@@ -26,7 +26,6 @@ public class Main {
 //        CountVowels.countVowels();
 //        StringDivisionInEqualParts.stringDivision();
 //        DummyThread.dummyThread();
-//        RotateTheArray.rotateTheArray();
-        MoveZerosToEnd.moveZeros();
+        RotateTheArray.rotation();
     }
 }
