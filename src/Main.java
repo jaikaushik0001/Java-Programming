@@ -24,6 +24,7 @@ public class Main {
 //        FrequencyOfString.FrequencyOf_String();
 //        ShuffleTheArray.shuffleArray();
 //        CountVowels.countVowels();
-        StringDivisionInEqualParts.stringDivision();
+//        StringDivisionInEqualParts.stringDivision();
+        DummyThread.dummyThread();
     }
 }
