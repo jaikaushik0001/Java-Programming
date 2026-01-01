@@ -25,6 +25,8 @@ public class Main {
 //        ShuffleTheArray.shuffleArray();
 //        CountVowels.countVowels();
 //        StringDivisionInEqualParts.stringDivision();
-        DummyThread.dummyThread();
+//        DummyThread.dummyThread();
+//        RotateTheArray.rotateTheArray();
+        MoveZerosToEnd.moveZeros();
     }
 }
