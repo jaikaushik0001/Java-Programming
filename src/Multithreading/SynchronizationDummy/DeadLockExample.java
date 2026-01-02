@@ -28,8 +28,11 @@ class Task1 implements Runnable{
         this.pen = pen;
     }
     @Override
-    public void run() {
-        pen.writeWithPenAndPaper(paper);
+    public void run() { /* **Most Imp** : If we introduce a synchronized block and put
+           pen.writeWithPenAndPaper(paper) in it then it will wait for Paper lock to be released.*/
+        synchronized (paper){
+            pen.writeWithPenAndPaper(paper); // Thread 1 Locks Pen and tries to lock Paper
+        }
     }
 }
 
@@ -42,18 +45,20 @@ class Task2 implements Runnable{
     }
     @Override
     public void run(){
-        paper.writeWithPaperAndPen(pen);
+        paper.writeWithPaperAndPen(pen); // Thread 2 Locks Paper and tries to lock Pen
     }
 }
 
 public class DeadLockExample {
     public static void main(String[] args) {
-        Paper paper = new Paper();
-        Pen pen = new Pen();
+
+        Paper paper = new Paper(); // One resource of paper
+        Pen pen = new Pen();       // One resource of pen
+
         Task1 task1 = new Task1(paper,pen);
         Task2 task2 = new Task2(paper,pen);
 
-        Thread thread1 = new Thread(task1);
+        Thread thread1 = new Thread(task1);  // Initiated the threads for Task1 and Task2
         Thread thread2 = new Thread(task2);
 
         thread1.start();
