@@ -18,7 +18,6 @@ public class ReaarangeEvenNumbersToLeft {
                 a[left] = a[right];
                 a[right] = temp;
                 left++;
-                right--;
             }
         }
         System.out.println("The Rearranged Array is: "+ Arrays.toString(a));
