@@ -26,6 +26,6 @@ public class Main {
 //        CountVowels.countVowels();
 //        StringDivisionInEqualParts.stringDivision();
 //        DummyThread.dummyThread();
-       Rotate2DArray.Rotate2DArray();
+      ReaarangeEvenNumbersToLeft.Rearrange();
    }
 }
