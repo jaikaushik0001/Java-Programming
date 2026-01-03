@@ -13,7 +13,7 @@ public class reverse_a_number {
         System.out.println(sb);
     }
 
-    
+
     static void reverseUsingWhile(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
