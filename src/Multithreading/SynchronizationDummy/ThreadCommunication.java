@@ -75,6 +75,7 @@ public class ThreadCommunication {
         Thread pro = new Thread(producer);
         Thread con = new Thread(consumer);
 
+        
         pro.start();
         con.start();
     }
