@@ -32,9 +32,9 @@ public class RotateTheArray {
     }
     static void rotation(){
         int a[] = {1,2,3,4,5,6,7};
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.print("Enter the number: ");
-        int n = sc.nextInt();
+        int n = s.nextInt();
         reverse (a,0,a.length-1);
         reverse (a,0,n-1);
         reverse (a,n,a.length-1);
