@@ -53,7 +53,7 @@ class Consumer implements Runnable{
     private SharedResource resource;
 
     public Consumer (SharedResource resource){
-        this.resource = resource;
+        this.resource =  resource;
     }
 
     @Override
