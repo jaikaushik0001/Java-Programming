@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class KthLargestElement {
     static void largest(){
-        int a[] = {1,2,3,2,2,5,7,4,5,6};
+        int b[] = {1,2,3,2,2,5,7,4,5,6};
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Value of K: ");
         int k = sc.nextInt();
         PriorityQueue <Integer> p = new PriorityQueue<>(Collections.reverseOrder());
-        for (int i: a){
+        for (int i: b){
             p.add(i);
         }
         int result = 0;
