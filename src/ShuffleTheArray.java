@@ -6,13 +6,13 @@ import java.util.Random;
 
 public class ShuffleTheArray {
     static void shuffleArray(){
-        int a[] = {1,2,3,4,5,6,7,8,9};
+        int b[] = {1,2,3,4,5,6,7,8,9};
         Random r = new Random();
-        for (int i=a.length - 1;i>=0;i--){
+        for (int i=b.length - 1;i>=0;i--){
             int j = r.nextInt(i+1);
-            int temp = a[j];
-            a[j] = a[i];
-            a[i] = temp;
+            int temp = b[j];
+            b[j] = b[i];
+            b[i] = temp;
         }
         System.out.println("The Shuffled Array is: "+ Arrays.toString(a));
     }
