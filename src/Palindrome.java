@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Palindrome {
     static void palindrome(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a String: ");
+        System.out.println("Enter the String: ");
         String s = sc.next();
         boolean flag = true;
         for (int i=0;i<s.length()/2;i++){
