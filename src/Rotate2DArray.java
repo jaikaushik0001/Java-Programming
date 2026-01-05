@@ -19,7 +19,7 @@ public class Rotate2DArray {
                 a[row][a[0].length - col - 1] = temp;
             }
         }
-        System.out.println("The Clockwise Rotated Array is: ");
+        System.out.println("The Rotated Array is: ");
         System.out.println(Arrays.deepToString(a));
     }
 }
