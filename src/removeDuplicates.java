@@ -21,7 +21,7 @@ public class removeDuplicates {
         System.out.println(Arrays.toString(a));
     }
 
-    // This is the optimized approach to solve the problem
+    // This is the optimized approach to solve the problem statement
     static void opimizedRemoveDuplicates(){
         int a[] = {1,1,2,2,2,3,3,3,4,4,4,4,4,4,5,5,5,5,5};
         int index = 0;
