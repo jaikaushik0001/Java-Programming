@@ -14,6 +14,6 @@ public class ShuffleTheArray {
             b[j] = b[i];
             b[i] = temp;
         }
-        System.out.println("The Shuffled Array is: "+ Arrays.toString(a));
+        System.out.println("The Shuffled Array is: "+ Arrays.toString(b));
     }
 }
