@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Factorial {
     static void factorial(){
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        int num = sc.nextInt();
+        int num = s.nextInt();
         int fact = 1;
         for (int i=num;i>=1;i--){
             fact*=i;
