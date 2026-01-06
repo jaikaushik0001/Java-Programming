@@ -39,8 +39,8 @@ class Task1 implements Runnable{
 class Task2 implements Runnable{
     Pen pen;
     Paper paper;
-    public Task2(Paper paper, Pen pen){
-        this.paper = paper;
+    public Task2(Paper pap, Pen pen){
+        this.paper = pap;
         this.pen = pen;
     }
     @Override
