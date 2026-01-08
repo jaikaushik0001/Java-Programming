@@ -3,7 +3,7 @@ public class SmallestMissingInteger
     public static int findSmallestMissingPositive(int[] nums)
     {
         int n=nums.length;
-        // Rearrange the array
+        // Rearrange the
         for (int i=0;i<n;i++)
         {
             while (nums[i]>0&&nums[i]<=n&&nums[nums[i]-1]!=nums[i])
@@ -11,7 +11,7 @@ public class SmallestMissingInteger
                 swap(nums,i,nums[i]-1);
             }
         }
-        //Find the smallest missing positive 
+        //Find the smallest missing positive
         for (int i=0;i<n;i++)
         {
             if (nums[i]!=i+1)
