@@ -45,7 +45,7 @@ class Task2 implements Runnable{
     }
     @Override
     public void run(){
-        paper.writeWithPaperAndPen(pen); // Thread 2 Locks Paper and tries to lock Pen
+        paper.writeWithPaperAndPen(pen); // Thread 2 Locks Paper and tries to  \\lock Pen
     }
 }
 
