@@ -11,7 +11,7 @@ public class SmallestMissingInteger
                 swap(nums,i,nums[i]-1);
             }
         }
-        //Find the smallest missing positive number
+        //Find the smallest missing positive 
         for (int i=0;i<n;i++)
         {
             if (nums[i]!=i+1)
