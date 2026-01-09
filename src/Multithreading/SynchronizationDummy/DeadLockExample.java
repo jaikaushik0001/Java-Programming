@@ -2,7 +2,7 @@ package Multithreading.SynchronizationDummy;
 
 class Pen{
     public synchronized void writeWithPenAndPaper (Paper paper){
-        System.out.println(Thread.currentThread().getName()+" is using pen "+this+" and trying to use paper");
+        System.out.println(Thread.currentThread().getName()+" is usig pen "+this+" and trying to use paper");
         paper.finishWriting();
     }
     public synchronized void finishWriting(){
