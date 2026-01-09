@@ -12,7 +12,7 @@ class Pen{
 
 class Paper{
     public synchronized void writeWithPaperAndPen (Pen pen){
-        System.out.println(Thread.currentThread().getName()+" is using paper "+this+" and trying to use pen");
+        System.out.println(Thread.currentThread().getName()+" is using paper "+this+" and trying o use pen");
         pen.finishWriting();
     }
     public synchronized void finishWriting(){
