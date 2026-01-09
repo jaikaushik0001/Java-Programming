@@ -31,7 +31,7 @@ public class OrthogonalMatrix
         if (areOrthogonal) {
             System.out.println("The matrices are orthogonal.");
         } else {
-            System.out.println("The matrices are not orthogonal.");
+            System.out.println("The matrces are not orthogonal.");
         }
     }
 }
