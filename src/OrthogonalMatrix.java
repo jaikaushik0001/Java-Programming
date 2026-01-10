@@ -29,7 +29,7 @@ public class OrthogonalMatrix
 
         boolean areOrthogonal = areMatricesOrthogonal(matrix1, matrix2);
         if (areOrthogonal) {
-            System.out.println("The matrices are orthogonal.");
+            System.out.println("The matrces are orthogonal.");
         } else {
             System.out.println("The matrces are not orthogonal.");
         }
