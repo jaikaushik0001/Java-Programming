@@ -16,7 +16,7 @@ class Paper{
         pen.finishWriting();
     }
     public synchronized void finishWriting(){
-        System.out.println(Thread.currentThread().getName()+" finished usin paper"+this);
+        System.out.println(Thread.currentThread().getName()+" finished using paper"+this);
     }
 }
 
