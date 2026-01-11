@@ -15,7 +15,7 @@ public class Sorted2DArray {
         System.out.println("Original Matrix:");
         printMatrix(matrix);
         sortByColumn(matrix,columnToSortBy);
-        System.out.println("Sorted Matri by Column " + columnToSortBy + ":");
+        System.out.println("Sorted Matrix by Column " + columnToSortBy + ":");
         printMatrix(matrix);
     }
     public static void printMatrix(int[][] matrix) {
