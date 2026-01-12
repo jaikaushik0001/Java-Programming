@@ -12,7 +12,7 @@ public class Sorted2DArray {
                 {19, 18, 17}
         };
         int columnToSortBy=1;
-        System.out.println("Original Matrix:");
+        System.out.println("Original trix:");
         printMatrix(matrix);
         sortByColumn(matrix,columnToSortBy);
         System.out.println("Sorted Matrix by Column " + columnToSortBy + ":");
