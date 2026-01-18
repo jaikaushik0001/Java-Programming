@@ -15,7 +15,7 @@ public class Palindrome {
             }
         }
         if (flag == true){
-            System.out.println("String  palindrome");
+            System.out.println("String is palindrome");
         }
         else{
             System.out.println("String isn't a palindrome");
